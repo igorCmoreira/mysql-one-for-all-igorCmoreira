@@ -25,7 +25,8 @@ CREATE TABLE SpotifyClone.followers(
 	id_user INTEGER,
     id_artist INTEGER,
     FOREIGN KEY (id_user) REFERENCES users (id_user),
-    FOREIGN KEY (id_artist) REFERENCES artist (id_artist)
+    FOREIGN KEY (id_artist) REFERENCES artist (id_artist),
+    CONSTRAINT PRIMARY KEY (id_user, id_artist)
     ) ENGINE = InnoDB;
     
     
