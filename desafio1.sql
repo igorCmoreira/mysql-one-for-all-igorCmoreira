@@ -113,7 +113,7 @@ INSERT INTO SpotifyClone.songs(id_artist, id_album, song_name, duration)
            (3, 4, "Let's Be Silly", 132),
            (6, 5, 'Thang Of Thunder', 240),
            (6, 5, 'Words Of Her Life', 185),
-           (6, 5, 'Withoult My Streets', 176),
+           (6, 5, 'Without My Streets', 176),
            (6, 6, 'Need Of The Evening', 190),
            (6, 6, 'History Of My Roses', 222),
            (6, 6, 'Without My Love', 111),
