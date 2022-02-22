@@ -88,7 +88,7 @@ INSERT INTO SpotifyClone.album(album_name, launch_year, id_artist)
 		  ('Exuberant', 1993, 1),
           ('Hallowed Steam', 1995, 2),
           ('Incandescent', 1998, 3),
-          ('temporary Culture', 2001, 6),
+          ('Temporary Culture', 2001, 6),
           ('Library of liberty', 2003, 6),
           ('Chained Down', 2007, 4),
           ('Cabinet of fools', 2012, 4),
@@ -148,7 +148,7 @@ INSERT INTO SpotifyClone.followers(id_user, id_artist)
            (4, 6),
            (5, 4),
            (5, 5),
-           (6, 4),
+           (6, 1),
            (6, 3),
            (6, 5),
            (7, 2),
@@ -200,3 +200,4 @@ INSERT INTO SpotifyClone.historic(id_user, id_song, repro_date)
            (10, 21, '2017-12-04 05:33:43'),
            (10, 12, '2017-07-27 05:24:49'),
            (10, 13, '2017-12-25 01:03:57');
+
