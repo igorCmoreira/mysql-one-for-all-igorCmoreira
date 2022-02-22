@@ -84,7 +84,7 @@ INSERT INTO SpotifyClone.artist(artist_name)
            ('Freedie Shannon');
            
 INSERT INTO SpotifyClone.album(album_name, launch_year, id_artist)
-	VALUES('Envius', 1990, 1),
+	VALUES('Envious', 1990, 1),
 		  ('Exuberant', 1993, 1),
           ('Hallowed Steam', 1995, 2),
           ('Incandescent', 1998, 3),
@@ -97,7 +97,7 @@ INSERT INTO SpotifyClone.album(album_name, launch_year, id_artist)
 
 INSERT INTO SpotifyClone.songs(id_artist, id_album, song_name, duration)
 	VALUES (1, 1, 'Soul For Us', 200),
-		   (1, 1, 'Reflection Of Magic', 163),
+		   (1, 1, 'Reflections Of Magic', 163),
            (1, 1, 'Dance With Her Own', 116),
            (1, 2, 'Troubles Of My Inner Fire', 203),
            (1, 2, 'Time Fireworks', 152),
@@ -200,4 +200,3 @@ INSERT INTO SpotifyClone.historic(id_user, id_song, repro_date)
            (10, 21, '2017-12-04 05:33:43'),
            (10, 12, '2017-07-27 05:24:49'),
            (10, 13, '2017-12-25 01:03:57');
-
